@@ -134,10 +134,45 @@ nav {
   padding-top: 9px;
 }
 
+nav .nav-item {
+  float: left;
+  position: relative;
+  width: 20%;
+}
+
+nav .nav-item ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background: #3293CF;
+  border-radius: 4px;
+  top: 125%;
+  left: -20%;
+  -webkit-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+  -moz-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+  filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+}
+
+nav .nav-item ul div.pointer {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #3293CF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -15px;
+  left: 96px;
+}
+
 nav a {
   font-size: 1.3em;
   margin: 0px 30px;
+  padding-bottom: 18px;
+  text-align: center;
   color: black;
+  text-decoration: none;
 }
 
 nav a:hover {
