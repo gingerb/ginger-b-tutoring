@@ -170,7 +170,6 @@ nav a {
   font-size: 1.3em;
   margin: 0px 30px;
   padding-bottom: 18px;
-  text-align: center;
   color: black;
   text-decoration: none;
 }
@@ -179,6 +178,16 @@ nav a:hover {
   font-size: 1.3em;
   margin: 0px 30px;
   color: white;
+}
+
+nav li a {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+nav li a:hover {
+  color: white;
+  font-size: 1.2em;
 }
 
 #main-content {
